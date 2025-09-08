@@ -3,7 +3,7 @@ A full-stack ToDo application built with **React + TypeScript + Vite**.
 This project is structured to simulate a real-world production-grade workflow while practicing **clean code, testing, and DevOps discipline**.
 
 ## 🚀 Features (Planned by Phase)
-- **Phase 1**: Local ToDo list (create, delete, list, detail view).
+- **Phase 1**: Local ToDo list (create, delete, list, detail view). ⌛
 - **Phase 2**: State management with Redux Toolkit.
 - **Phase 3**: Forms with validation (React Hook Form + Zod).
 - **Phase 4**: Mocked REST API integration.
@@ -22,21 +22,27 @@ This project is structured to simulate a real-world production-grade workflow wh
 - **Deployment**: Vercel (frontend), Railway/Render (backend)
 
 ## 📂 Project Structure
-do-react-type/
 ├── src/ # Frontend source code
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Page-level components
-│ ├── hooks/ # Custom hooks
-│ ├── store/ # Redux slices
-│ ├── types/ # Global TypeScript types
-│ └── tests/ # Unit + integration tests
-├── api/ # Backend (Node + Express + MongoDB)
-├── .github/workflows/ # CI/CD pipelines
-├── README.md
-└── DECISIONS.md
 
-bash
-Copy code
+│ ├── components/ # Reusable UI components
+
+│ ├── pages/ # Page-level components
+
+│ ├── hooks/ # Custom hooks
+
+│ ├── store/ # Redux slices
+
+│ ├── types/ # Global TypeScript types
+
+│ └── tests/ # Unit + integration tests
+
+├── api/ # Backend (Node + Express + MongoDB)
+
+├── .github/workflows/ # CI/CD pipelines
+
+├── README.md
+
+└── DECISIONS.md
 
 ## 🔧 Setup
 ```bash
